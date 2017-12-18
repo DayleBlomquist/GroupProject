@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Kameron" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css">
+	<title>Wyndcastle Realty</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device width, initial-scale=1">
+</head>
+
+<body>
+	<div id="container">
+	
+	<header>
+		<a href="index.html"><img src="images/logo.jpg" alt="Wyndham Realty Logo" height="200" width="300"></a>
+	</header>
+	
+	<br/>
+	
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="buy.html">Buy a Home</a></li>
+			<li><a href="sell.html">Sell Your Home</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+		</ul>
+	</nav>
+			
+	<main>
+		<h1>Contact Us</h1>
+		<hr/>
+		<h3>Please complete the form below to have one of our professional agents contact you today!</h3>
+		<form> 			
+			<p>I am interested in:</p>
+			<div id="checkbox">
+				<div class="row">
+					<div class="column">
+						<ul>
+							<li><input type="checkbox" id="buying" name="buying" value="buying" class="chkbx">Buying a house</li>
+							<li><input type="checkbox" id="selling" name="selling" value="selling" class="chkbx">Selling a house</li>
+							<li><input type="checkbox" id="mtgsvcs" name="mtgsvcs" value="mtgsvcs" class="chkbx">Mortgage Assistance</li>
+							<li><input type="checkbox" id="reloc" name="reloc" value="reloc" class="chkbx">Relocation Services</li>
+							<li><input type="checkbox" id="work" name="work" value="work" class="chkbx">Becoming an Agent</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</form>
+		
+		<form>
+		<div id="labels">
+			<div class="row">
+				<div class="column">
+				
+					<label for="fName"></label>
+					<input id="fName" type="text" name="fName" required="required" placeholder="First Name"/>
+					
+					<label for="lName"></label>
+					<input id="lName" type="text" name="lName" required="required" placeholder="Last Name" />
+			
+					<label for="addr"></label>
+					<input id="addr" type="text" name="addr" placeholder="Address (optional)"/>
+								
+					<label for="city"></label>
+					<input id="city" type="text" name="city" placeholder="City (optional)" />
+								
+					<label for="state"></label>
+					<input id="state" type="state" name="state" placeholder="State (optional)" />
+								
+					<label for="zip"></label>
+					<input id="zip" type="number" name="zip" placeholder="Zip Code (optional)" />
+								
+					<label for="email"></label>
+					<input id="email" type="email" name="email" placeholder="Email" />
+								
+					<label for="phone"></label>
+					<input id="phone" type="phone" name="phone" placeholder="Phone Number" />
+					
+				</form>
+					<br/>
+					<br/>
+					<br/>
+				</div>
+			</div>
+		</div>
+	
+		<br/>
+		<br/>
+		<br/>
+			<div id="btn">
+				<input type="submit" id="submit" value="Submit" class="btn"/>
+			</div>
+			
+		<br/>
+		
+	</main>	
+	<br/>
+	<br/>
+	<footer>
+		<hr/>
+			<p>8779 Main Way<br/>San Francisco, Ca 94016<br/>
+			<span class="desktop">(800)555-0000</span><br/>
+			<a href="mailto:wyndcastlerealty@homes.com" class="contact">wyndcastlerealty@homes.com</a><br/>
+			
+			<div id="copyw">
+				<a href="index.html"><img src="images/realtor.gif" alt="Realtor Logo" height="20" width="20"></a>
+				<p>&copy; Copyright 2017.</p>
+			</div>
+		<hr/>
+	</footer>
+	</div>
+	<script src="wynd.js"></script>
+</body>
+</html>
